@@ -49,11 +49,9 @@ console.log(num.fullname.completename.last);  //accescing nested object
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
 
-const obj3 = Object.assign(obj1, obj2)    //merging two objects using object.assign
+const obj3 = Object.assign(obj1, obj2)     //merging two objects using object.assign
 console.log(obj3);
 
-console.log(Object.keys(obj3));         //used to get keys of object
+console.log(Object.keys(obj3));          //used to get keys of object
 console.log(Object.values(obj3));       //used to get Values of object
 console.log(Object.entries(obj3));     //used to get both key and values of object in form of array
-
-
